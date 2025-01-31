@@ -21,18 +21,34 @@
         </div>
         <div>
             <form action="" method="get">
-                <label for="username"></label>
-                <input type="text" name="username" id="username">
-
-                <label for="pwd"></label>
-                <input type="password" id="pwd" name="pwd">
-
-                <label for="pwdConfirm"></label>
-                <input type="password" id="pwdConfirm">
-
                 
-                <button type="submit"></button>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username">
+                </div>
+
+                <div class="pwdArea">
+                    <div>
+                        <label for="pwd">Password:</label>
+                        <input type="password" id="pwd" name="pwd">
+                    </div>
+
+                    <div>
+                        <label for="pwdConfirm">Confirm your Password:</label>
+                        <input type="password" id="pwdConfirm">
+                    </div>
+                </div>
+                
+                <button type="submit">Sign Up</button>
             </form>
+        </div>
+        <div>
+            <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
 </body>
