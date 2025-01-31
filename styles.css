@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -58,10 +59,16 @@ form > div {
 input {
     width: 300px;
     height: 30px;
+    padding: 0px 4px;
 }
 
 .pwdArea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+input:invalid {
+    border: 1px solid #e21414c5;
+    border-radius: 3px;
 }
